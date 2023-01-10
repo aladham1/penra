@@ -1,0 +1,27 @@
+@font-face {
+    font-family: cairoRegular;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cairo-SemiBold;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: NeSansArabicRegular;
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+
+body {
+    direction: rtl;
+}
+
+body, input, a {
+    font-family: cairoRegular;
+}
+
+button {
+    font-family: Cairo-SemiBold;
+}
+

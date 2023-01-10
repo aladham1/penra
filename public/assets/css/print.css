@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+}
+
+table tr {
+    height: 35px;
+}
+
+table tr td {
+    font-size: 13px;
+}
+
+table tr td {
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+.bold td {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+table td, table td {
+    border: 1px solid;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.h-45 {
+    height: 45px;
+}
+
+footer {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    left: 50px;
+}
+
+footer h6 {
+    text-decoration: underline;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+#watermark {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    min-height: 50%;
+    min-width: 50%;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#watermark-text {
+    color: #eae9e9;
+    font-size: 200px;
+    transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    opacity: 0.1;
+    letter-spacing: 60px;
+}
+.kt-badge.kt-badge--success {
+    color: #ffffff;
+    background: #0abb87;
+}
+.kt-badge.kt-badge--pill {
+    border-radius: 2rem;
+}
+
+.kt-badge.kt-badge--inline {
+    height: 0;
+    width: auto;
+    padding: 0.75rem 0.75rem;
+    border-radius: 2px;
+}
+.kt-badge {
+    padding: 0;
+    margin: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+.kt-badge.kt-badge--danger {
+    color: #ffffff;
+    background: #fd397a;
+}
+.kt-badge.kt-badge--brand {
+    color: #ffffff;
+    background: #5d78ff;
+}
